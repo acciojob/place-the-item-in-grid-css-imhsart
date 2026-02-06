@@ -2,12 +2,8 @@
 .holder{
 	display: grid;
 	width: 200px;
-	grid-template-rows: repeat(2,1fr);
-	grid-template-columns: repeat(2,1fr);
-}
-.item{
-	height: 70px;
-	width: 70px;
+	grid-template-rows: repeat(2,100px);
+	grid-template-columns: repeat(2,100px);
 }
 .item-1{
 	background-color: red;
